@@ -57,37 +57,31 @@ void setup()
     rb2.write(pos); 
     delay(15);      
   }
-  delay(500);
   for(pos = 97; pos <= 132; pos += 1) 
   {                                  
     rb1.write(pos);              
     delay(15);                   
   } 
-  delay(500);  
   for(pos = 150; pos <= 180; pos += 1) 
   {                                  
     rb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 180; pos >= 150; pos -= 1) 
   {                                  
     lf2.write(pos);              
     delay(15);                   
-  }
-  delay(500);
+  }]
   for(pos = 95; pos >= 60; pos -= 1) 
   {                                  
     lf1.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 150; pos <= 180; pos += 1) 
   {                                  
     lf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   lb1temp = 62;
   lf1temp = 70;
   rf1temp = 119;
@@ -102,43 +96,36 @@ void setup()
     rb1temp--;
     delay(15);
   }
-  delay(500);
   for(pos = 0; pos <= 30; pos += 1) 
   {                                 
     lb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 87; pos >= 52; pos -= 1)
   {                                 
     lb1.write(pos);              
     delay(15);                   
-  } 
-  delay(500);
+  }
   for(pos = 30; pos >= 0; pos -= 1)
   {                                
     lb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 10; pos <= 30; pos += 1)
   {                                 
     rf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 94; pos <= 129; pos += 1)
   {                                  
     rf1.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 30; pos >= 10; pos -= 1) 
   {                                  
     rf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   lb1temp = 62;
   lf1temp = 70;
   rf1temp = 119;
@@ -163,37 +150,31 @@ void loop()
     rb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 97; pos <= 132; pos += 1)
   {                                  
     rb1.write(pos);              
     delay(15);                   
   } 
-  delay(500);  
   for(pos = 150; pos <= 180; pos += 1)
   {                                  
     rb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 180; pos >= 150; pos -= 1) 
   {                                  
     lf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 95; pos >= 60; pos -= 1) 
   {                                  
     lf1.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 150; pos <= 180; pos += 1) 
   {                                  
     lf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   lb1temp = 62;
   lf1temp = 70;
   rf1temp = 119;
@@ -208,37 +189,31 @@ void loop()
     rb1temp--;
     delay(10);
   }
-  delay(500);
   for(pos = 0; pos <= 30; pos += 1) 
   {                                 
     lb2.write(pos);              
     delay(15);                       
   }
-  delay(500);
   for(pos = 87; pos >= 52; pos -= 1) 
   {                                  
     lb1.write(pos);              
     delay(15);                   
-  } 
-  delay(500);
+  }
   for(pos = 30; pos >= 0; pos -= 1) 
   {                                 
     lb2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 10; pos <= 30; pos += 1) 
   {                                  
     rf2.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 94; pos <= 129; pos += 1)
   {                                  
     rf1.write(pos);              
     delay(15);                   
   }
-  delay(500);
   for(pos = 30; pos >= 10; pos -= 1)
   {                                 
     rf2.write(pos);              
